@@ -26,6 +26,7 @@ html, body {
 .logo-bar .logo img {
   height: 70px;
   width: 220px;
+  transition: 0.5s;
 }
 
 .logo-bar .logo img:hover {
@@ -45,6 +46,15 @@ html, body {
   padding-left: 25px;
 }
 
+.social-media-hero-link {
+  color: black;
+  transition: 0.5s;
+}
+
+.social-media-hero-link:hover {
+  font-size: 1.2em;
+}
+
 .landing-hero {
   width: 50%;
   color: white;
@@ -54,6 +64,7 @@ html, body {
   font-size: 2em;
   padding: 20px;
   text-align: center;
+  transition: 0.3s;
 }
 
 .landing-hero h1 {
