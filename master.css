@@ -1,5 +1,9 @@
-html, body {
-  font-family: 'Roboto Condensed', sans-serif;
+* {
+  font-family: 'Karla';
+}
+
+html body {
+  font-family: 'Karla', sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -7,80 +11,253 @@ html, body {
   font-size: 16px;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+  /* background-color: #1f3161; */
 }
 
-#landing-page {
-  background-image: url("Assets/Images/landing-debt-collection-2.jpg");
-  background-repeat: no-repeat;
-  min-height: 100%;
-  background-size:cover;
-  background-position:;
-  font-family: 'Roboto Condensed'
-}
 
-.logo-bar {
-  width: 75%;
-  margin: auto;
-  padding-top: 90px;
-}
-
-.logo-bar .logo img {
-  height: 70px;
-  width: 220px;
-  transition: 0.5s;
-}
-
-.logo-bar .logo img:hover {
-  height: 80px;
-  width: 230px;
-}
-
-.social-media-hero {
-  float: right;
-  display: inline-block;
-  font-size: 1.6em;
-  margin-top: -3%;
-  color: #212529;
-}
-
-.social-media-hero i {
-  padding-left: 25px;
-}
-
-.social-media-hero-link {
-  color: black;
-  transition: 0.5s;
-}
-
-.social-media-hero-link:hover {
-  font-size: 1.2em;
-}
-
-.landing-hero {
-  width: 50%;
-  color: white;
-  margin: auto;
-  margin-top: 250px;
-  border: 6px solid white;
-  font-size: 2em;
-  padding: 20px;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.landing-hero h1 {
-  font-size: 2em;
-}
-
-.landing-hero p {
-  font-size: 0.7em;
-  margin-top: 30px;
-}
-
-.landing-box-a:hover {
+a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label, li, nav, p, select, span, table, textarea, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
   text-decoration: none;
 }
 
-.landing-hero:hover {
-  border: 6px solid rgba(210,210,210,0.5);
+          /* Home Section */
+
+/* Background Video */
+.bg-video {
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+/* Navigation */
+.navbar {
+  position: absolute;
+  padding: 0!important;
+  left:;
+  z-index: 1;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+  transition: 0.8s;
+}
+
+.home-logo .logo a:hover {
+  color: #687aa8;
+  text-decoration: none;
+}
+
+.home-logo {
+  position: relative;
+  left: 10%;
+  font-size: 0.87em;
+  font-weight: 700;
+}
+
+.home-logo .logo img {
+  width: 12em;
+  height: 12em;
+}
+
+
+.navbar .home-nav {
+  margin-right:;
+  display: inline-block;
+  color: #687aa8;
+  font-size: 1.2em;
+  height: 90px;
+  background-color: #1a284d;
+  font-weight: 700;
+}
+
+.home-nav span {
+  padding: 0 35px 0 35px;
+  position: relative;
+  top: 34%;
+}
+
+.home-nav a {
+  color:#687aa8;
+  transition: 0.5s;
+}
+
+.home-nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.home-nav .highlight a {
+  color: white;
+}
+
+    /* Hero */
+.hero {
+  width: 720px;
+  color: white;
+  margin: 2% auto 0;
+}
+
+.hero h1 {
+  font-size: 3.2em;
+  text-align: center;
+  font-weight: 400;
+}
+
+.hero-info {
+  position: absolute;
+  width: 280px;
+  left: 2%;
+  bottom: 12%;
+}
+
+.hero-info h5 {
+  color: white;
+  font-size: 1em;
+}
+
+.hero-info p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+/* .typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space:nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+/* @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+} */
+
+    /* Home Bottom */
+.learn-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width:309px;
+  background-color: white;
+  transition: 0.8s;
+}
+
+.learn-more-text {
+  text-align: center;
+  padding-top:27px;
+  font-weight: 700;
+  color: #3a478f;
+  font-size: 1.35em;
+}
+
+.learn-more-text i {
+  padding-left: 10px;
+}
+
+.learn-more-text a {
+  color: #3a478f;
+  text-decoration: none;
+  transition: .7s;
+}
+
+.learn-more:hover i {
+  color: white;
+}
+
+.learn-more:hover a {
+  color: white;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  background-color: #3a478f;
+}
+
+.home-contact {
+  position: absolute;
+  bottom: 110px;
+  right:100px;
+}
+
+.call-2-action {
+  border: 1px solid #608ad8;
+  border-radius: 60px;
+  background: #608ad8;
+  padding: 15px 35px;
+  text-align: center;
+  color: white;
+  width: 175px;
+  height: 55px;
+  font-weight: 700;
+  transition: .8s
+}
+
+.call-2-action i {
+  padding-left: 6px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.call-2-action a {
+  text-decoration: none;
+  color: white;
+}
+
+.call-2-action:hover {
+  background: white;
+}
+
+.call-2-action:hover a {
+  text-decoration: none;
+  color: #608ad8;
+}
+
+.call-2-action:hover i {
+  color: #608ad8;
+}
+
+.follow-us {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  bottom: -100px;
+  padding-top: 40px;
+}
+
+.follow-us a {
+  text-decoration: none;
+  color: #8799be;
+  padding: 0 10px;
+}
+
+.follow-us a:hover {
+  text-decoration: none;
+  color: #8799be;
+  opacity: 0.6;
 }
