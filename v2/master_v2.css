@@ -26,8 +26,9 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   text-decoration: none;
 }
 
-/* Home Section */
+          /* Home Section */
 
+/* Background Video */
 .bg-video {
   position: fixed;
   top: 70%;
@@ -39,7 +40,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   z-index: -1;
   transform: translate(-50%, -50%);
 }
-
+/* Navigation */
 .navbar {
   position: absolute;
   padding: 0!important;
@@ -93,6 +94,11 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   text-decoration: none;
 }
 
+.home-nav .highlight a {
+  color: white;
+}
+
+    /* Hero */
 .hero {
   width: 720px;
   color: white;
@@ -105,6 +111,30 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   font-weight: 700;
 }
 
+/* .typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space:nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite; */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+    /* Home Bottom */
 .learn-more {
   position: absolute;
   bottom: 0;
