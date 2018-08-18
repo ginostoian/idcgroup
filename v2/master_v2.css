@@ -1,0 +1,210 @@
+* {
+  font-family: 'Karla';
+}
+
+html body {
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* background-color: #1f3161; */
+}
+
+
+a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label, li, nav, p, select, span, table, textarea, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+/* Home Section */
+
+.bg-video {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+.navbar {
+  position: absolute;
+  padding: 0!important;
+  left:;
+  z-index: 1;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+  transition: 0.8s;
+}
+
+.home-logo .logo a:hover {
+  color: #687aa8;
+  text-decoration: none;
+}
+
+.home-logo {
+  position: relative;
+  left: 10%;
+  font-size: 0.87em;
+  font-weight: 700;
+}
+
+
+.navbar .home-nav {
+  margin-right:;
+  display: inline-block;
+  color: #687aa8;
+  font-size: 1.2em;
+  height: 90px;
+  background-color: #1a284d;
+  font-weight: 700;
+}
+
+.home-nav span {
+  padding: 0 35px 0 35px;
+  position: relative;
+  top: 34%;
+}
+
+.home-nav a {
+  color:#687aa8;
+  transition: 0.5s;
+}
+
+.home-nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  width: 720px;
+  color: white;
+  margin: 8% auto 0;
+}
+
+.hero h1 {
+  font-size: 3.2em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.learn-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width:309px;
+  background-color: white;
+  transition: 0.8s;
+}
+
+.learn-more-text {
+  text-align: center;
+  padding-top:27px;
+  font-weight: 700;
+  color: #3a478f;
+  font-size: 1.35em;
+}
+
+.learn-more-text i {
+  padding-left: 10px;
+}
+
+.learn-more-text a {
+  color: #3a478f;
+  text-decoration: none;
+  transition: .7s;
+}
+
+.learn-more:hover i {
+  color: white;
+}
+
+.learn-more:hover a {
+  color: white;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  background-color: #3a478f;
+}
+
+.home-contact {
+  position: absolute;
+  bottom: 110px;
+  right:100px;
+}
+
+.call-2-action {
+  border: 1px solid #608ad8;
+  border-radius: 60px;
+  background: #608ad8;
+  padding: 15px 35px;
+  text-align: center;
+  color: white;
+  width: 175px;
+  height: 55px;
+  font-weight: 700;
+  transition: .8s
+}
+
+.call-2-action i {
+  padding-left: 6px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.call-2-action a {
+  text-decoration: none;
+  color: white;
+}
+
+.call-2-action:hover {
+  background: white;
+}
+
+.call-2-action:hover a {
+  text-decoration: none;
+  color: #608ad8;
+}
+
+.call-2-action:hover i {
+  color: #608ad8;
+}
+
+.follow-us {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  bottom: -100px;
+  padding-top: 40px;
+}
+
+.follow-us a {
+  text-decoration: none;
+  color: #8799be;
+  padding: 0 10px;
+}
+
+.follow-us a:hover {
+  text-decoration: none;
+  color: #8799be;
+  opacity: 0.6;
+}
