@@ -28,10 +28,13 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
 
           /* Home Section */
 
+#home {
+  position: relative;
+}
 /* Background Video */
 .bg-video {
-  position: fixed;
-  top: 65%;
+  position: absolute;
+  top: 165%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -74,19 +77,19 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
 
 
 .navbar .home-nav {
-  margin-right:;
   display: inline-block;
   color: #687aa8;
   font-size: 1.2em;
-  height: 90px;
+  height: 110px;
   background-color: #1a284d;
   font-weight: 700;
+  margin-top: -80px;
 }
 
 .home-nav span {
   padding: 0 35px 0 35px;
   position: relative;
-  top: 34%;
+  top: 36%;
 }
 
 .home-nav a {
@@ -120,7 +123,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   position: absolute;
   width: 280px;
   left: 2%;
-  bottom: 12%;
+  bottom: -110%;
 }
 
 .hero-info h5 {
@@ -160,7 +163,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
     /* Home Bottom */
 .learn-more {
   position: absolute;
-  bottom: 0;
+  bottom: -520px;
   left: 0;
   height: 80px;
   width:309px;
@@ -201,7 +204,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
 
 .home-contact {
   position: absolute;
-  bottom: 110px;
+  bottom: -400px;
   right:100px;
 }
 
@@ -261,3 +264,63 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   color: #8799be;
   opacity: 0.6;
 }
+
+          /* About Section */
+
+#about {
+  position: absolute;
+  background-color: #f2f5fa;
+  height: 800px;
+  top: 54em;
+}
+
+.about-left {
+  background-color: white;
+  width: 309px;
+  padding: 37px 0 40px;
+  text-align: center;
+}
+
+.about-left ul {
+  list-style: none;
+}
+
+.about-left i {
+  padding-right: 20px;
+}
+
+.about-left li {
+  height: 48px;
+  line-height:48px;
+  color: #3a4796;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.about-right {
+  display: inline-block;
+  float: right;
+  width: auto;
+  max-width: 50%;
+  color: #3a478f;
+  padding: 154px 0 234px;
+  margin: 0 216px 0 0;
+}
+
+.about-right h1 {
+  font-size: 2.8125em;
+  font-weight: 700;
+  padding-top: 100px;
+}
+
+.about-right p {
+  font-size: 1.25em;
+  color: #627792;
+  padding-top: 60px;
+}
+
+about-indicator {
+  color: #627792;
+}
+
+/* Services Section */
