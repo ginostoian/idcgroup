@@ -335,20 +335,37 @@ about-indicator {
 
 .services-row1-left {
   width: 50%;
-  height: 700px;
+  height: 50%;
   background-color: #608ad8;
-  display: inline-block;
+  /* display: inline-block; */
+  float:left;
 }
 
 .services-row1-right {
   width: 50%;
-  height: 700px;
+  height: 50%;
   background-color: white;
-  display: inline-block;
-  float: right;
+  /* display: inline-block; */
+  float: left;
 }
 
 .services-row1-video {
   min-width: 100%;
   min-height: 100%;
+}
+
+.services-row2-left {
+  width: 50%;
+  height: 50%;
+  background-color: #608ad8;
+  /* display: inline-block; */
+  float: right;
+}
+
+.services-row2-right {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  /* display: inline-block; */
+  float: left;
 }
