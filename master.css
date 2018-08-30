@@ -271,7 +271,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   position: absolute;
   background-color: #f2f5fa;
   height: 800px;
-  top: 54em;
+  top: 54.2em;
 }
 
 .about-left {
@@ -324,3 +324,31 @@ about-indicator {
 }
 
 /* Services Section */
+
+#services {
+  position: absolute;
+  background-color: #f2f5fa;
+  height: 1400px;
+  width: 100%;
+  top: 104em;
+}
+
+.services-row1-left {
+  width: 50%;
+  height: 700px;
+  background-color: #608ad8;
+  display: inline-block;
+}
+
+.services-row1-right {
+  width: 50%;
+  height: 700px;
+  background-color: white;
+  display: inline-block;
+  float: right;
+}
+
+.services-row1-video {
+  min-width: 100%;
+  min-height: 100%;
+}
