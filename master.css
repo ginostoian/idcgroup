@@ -83,7 +83,10 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   height: 110px;
   background-color: #1a284d;
   font-weight: 700;
-  margin-top: -80px;
+  /* margin-top: -80px; */
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .home-nav span {
@@ -295,6 +298,15 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   color: #3a4796;
   font-weight: 700;
   font-size: 1.2em;
+  transition: .5s;
+}
+
+.about-left a:hover {
+  text-decoration: none;
+}
+
+.about-left li:hover {
+  color: #608ad8;
 }
 
 .about-right {
@@ -323,6 +335,23 @@ about-indicator {
   color: #627792;
 }
 
+/* Indicator that next section is coming */
+.about-services {
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+  width: 340px;
+  height: 90px;
+  background-color: white;
+  text-align: center;
+}
+
+#about-services-p {
+  padding-top: 35px;
+  color: #3a478f;
+  font-size: 1em;
+}
+
 /* Services Section */
 
 #services {
@@ -335,18 +364,14 @@ about-indicator {
 
 .services-row1-left {
   width: 50%;
-  height: 50%;
   background-color: #608ad8;
-  /* display: inline-block; */
-  float:left;
+  padding: 0!important;
 }
 
 .services-row1-right {
   width: 50%;
-  height: 50%;
   background-color: white;
-  /* display: inline-block; */
-  float: left;
+  padding: 0!important;
 }
 
 .services-row1-video {
@@ -356,16 +381,11 @@ about-indicator {
 
 .services-row2-left {
   width: 50%;
-  height: 50%;
-  background-color: #608ad8;
-  /* display: inline-block; */
-  float: right;
+  background-color: white;;
 }
 
 .services-row2-right {
   width: 50%;
-  height: 50%;
   background-color: white;
-  /* display: inline-block; */
-  float: left;
+  padding: 0!important;
 }
