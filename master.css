@@ -436,10 +436,10 @@ about-indicator {
 
 #testimonials {
   position: absolute;
-  background-color: whitesmoke;
+  background: linear-gradient(to right, #203262 50%, whitesmoke 50%);
   height: 750px;
   width: 100%;
-  top: 194em;
+  top: 195em;
 }
 
 .testimonials-header {
@@ -448,9 +448,14 @@ padding-bottom: 90px;
 
 .testimonials-header h1 {
   font-size: 3em;
-  padding-left: 100px;
+  /* padding-left: 100px; */
+  text-align: center;
   padding-top: 100px;
   color: #3a478f;
+}
+
+.testimonials-header-white {
+  color: white;
 }
 
     /* Styling card-container */
@@ -460,6 +465,14 @@ padding-bottom: 90px;
 }
 
 .card-container-row1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 60px 60px;
+  color: #203262;
+  background-color: white;
+}
+
+.card-container-row2 {
   border: 1px solid black;
   border-radius: 10px;
   padding: 60px 60px;
