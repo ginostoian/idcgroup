@@ -432,6 +432,18 @@ about-indicator {
   font-size: 1em;
 }
 
+
+/* Map Section */
+
+#contact {
+  position: absolute;
+  width: 100%;
+  top: 195em;
+}
+
+iframe {
+  width: 100%!important;
+}
 /* Testimonials Section */
 
 #testimonials {
@@ -439,7 +451,7 @@ about-indicator {
   background: linear-gradient(to right, #203262 50%, whitesmoke 50%);
   height: 750px;
   width: 100%;
-  top: 195em;
+  top: 229.4em;
 }
 
 .testimonials-header {
