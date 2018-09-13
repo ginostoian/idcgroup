@@ -419,6 +419,7 @@ about-indicator {
   padding-top: 50px;
 }
 
+  /* Add padding-top to the first h4 on the #services section, row2 */
 .first {
   padding-top: 80px;
 }
@@ -429,4 +430,39 @@ about-indicator {
   padding-right:45px;
   padding-top: 20px;
   font-size: 1em;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  position: absolute;
+  background-color: whitesmoke;
+  height: 750px;
+  width: 100%;
+  top: 194em;
+}
+
+.testimonials-header {
+padding-bottom: 90px;
+}
+
+.testimonials-header h1 {
+  font-size: 3em;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: #3a478f;
+}
+
+    /* Styling card-container */
+
+.container-fluid, .testimonials {
+  /* padding-top: 150px; */
+}
+
+.card-container-row1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 60px 60px;
+  color: white;
+  background-color: #203262;
 }
