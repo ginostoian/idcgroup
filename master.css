@@ -416,7 +416,11 @@ about-indicator {
 .services-row2-h4 {  /* styling the h4's in the services section 2nd row */
   color: #3a478f;
   padding-left: 100px;
-  padding-top: 70px;
+  padding-top: 50px;
+}
+
+.first {
+  padding-top: 80px;
 }
 
 .services-row2-p {
