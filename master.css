@@ -417,6 +417,7 @@ about-indicator {
   color: #3a478f;
   padding-left: 100px;
   padding-top: 50px;
+  font-weight: 700;
 }
 
   /* Add padding-top to the first h4 on the #services section, row2 */
@@ -438,7 +439,7 @@ about-indicator {
 #contact {
   position: absolute;
   width: 100%;
-  top: 195em;
+  top: 233em;
 }
 
 iframe {
@@ -452,7 +453,7 @@ iframe {
   background-color: white;
   height: 750px;
   width: 100%;
-  top: 229.4em;
+  top: 266.4em;
 }
 
 .testimonials-header {
@@ -465,6 +466,7 @@ padding-bottom: 90px;
   text-align: center;
   padding-top: 100px;
   color: #3a478f;
+  font-weight: 700;
 }
 
 .testimonials-header-white {
@@ -483,6 +485,7 @@ padding-bottom: 90px;
   padding: 60px 60px;
   color: #203262;
   background-color: white;
+  box-shadow: 10px 10px;
 }
 
 .card-container-row2 {
@@ -491,4 +494,10 @@ padding-bottom: 90px;
   padding: 60px 60px;
   color: white;
   background-color: #203262;
+  box-shadow: 10px 10px grey;
+}
+
+.carousel img {
+  display: block;
+  height: 600px;
 }
