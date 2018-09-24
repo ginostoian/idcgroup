@@ -33,7 +33,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
 /* Background Video */
 .bg-video {
   position: absolute;
-  top: 165%;
+  top: 180%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -418,11 +418,12 @@ about-indicator {
   padding-left: 100px;
   padding-top: 50px;
   font-weight: 700;
+  font-size: 1.8em;
 }
 
   /* Add padding-top to the first h4 on the #services section, row2 */
 .first {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .services-row2-p {
@@ -436,7 +437,7 @@ about-indicator {
 
 /* Map Section */
 
-#contact {
+#map {
   position: absolute;
   width: 100%;
   top: 233em;
@@ -445,6 +446,7 @@ about-indicator {
 iframe {
   width: 100%!important;
 }
+
 /* Testimonials Section */
 
 #testimonials {
@@ -469,11 +471,19 @@ padding-bottom: 90px;
   font-weight: 700;
 }
 
+.testimonials-header hr {
+   border: 0;
+   height: 1px;
+   /* background-color: #5160b5; */
+   background-image: linear-gradient(to right, rgba(81, 96, 181, 0), rgba(81, 96, 181, 0.75), rgba(81, 96, 181, 0));
+   margin: 20px 300px;
+}
+
 .testimonials-header-white {
   /* color: white; */
 }
 
-    /* Styling card-container */
+/* Styling card-container */
 
 .container-fluid, .testimonials {
   /* padding-top: 150px; */
@@ -485,7 +495,7 @@ padding-bottom: 90px;
   padding: 60px 60px;
   color: #203262;
   background-color: white;
-  box-shadow: 10px 10px;
+  box-shadow: 7px 7px lightgrey;
 }
 
 .card-container-row2 {
@@ -494,8 +504,10 @@ padding-bottom: 90px;
   padding: 60px 60px;
   color: white;
   background-color: #203262;
-  box-shadow: 10px 10px grey;
+  box-shadow: 7px 7px lightgrey;
 }
+
+/* Carousel  */
 
 .carousel img {
   display: block;
