@@ -46,9 +46,9 @@
         </div>
       </div>
       <div class="hero typewriter">  <!-- Class not in use -->
-        <h1>You have bad debtors.
+        <h1>International Debt Collection.
           <br>
-           We have solutions.</h1>
+           The Right Decision.</h1>
       </div>
       <div class="learn-more">
         <div class="learn-more-text"><a href="#about">Learn More</a> <i class="fas fa-level-down-alt"></i></div>
@@ -263,6 +263,7 @@
                 <li><a href="#services"> Services</a></li>
                 <li><a href="#testimonials"> Testimonials</a></li>
                 <li><a href="#contact"> Contact</a></li>
+                <li><a href="Assets/company-profile.pdf" target="_blank"> Profile</a></li>
               </ul>
             </div>
           </div>
@@ -293,6 +294,18 @@
       </div>
     </section>
 
+    <!-- Smooth Scrolling Effect -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+        });
+      });
+    });
+    </script>
 
     <!-- Flickity Slider JS -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
