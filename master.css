@@ -1,7 +1,7 @@
 * {
   font-family: 'Karla';
 }
-
+/* Universal Rules */
 html body {
   font-family: 'Karla', sans-serif;
   width: 100%;
@@ -25,7 +25,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   text-decoration: none;
 }
 
-          /* Home Section */
+/* Home Section */
 
 #home {
   position: relative;
@@ -108,7 +108,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   color: white;
 }
 
-    /* Hero */
+/* Hero */
 .hero {
   width: 720px;
   color: white;
@@ -140,30 +140,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   font-weight: 700;
 }
 
-/* .typewriter h1 {
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space:nowrap;
-  margin: 0 auto;
-  letter-spacing: .08em;
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-/* @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-/* @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-} */
-
-    /* Home Bottom */
+/* Home Bottom */
 .learn-more {
   position: absolute;
   bottom: -520px;
@@ -268,7 +245,7 @@ a, body, button, div, footer, form, h1, h2, h3, header, html, img, input, label,
   opacity: 0.6;
 }
 
-          /* About Section */
+/* About Section */
 
 #about {
   position: absolute;
@@ -413,7 +390,7 @@ about-indicator {
 }
 
 
-.services-row2-h4 {  /* styling the h4's in the services section 2nd row */
+.services-row2-h4 {
   color: #3a478f;
   padding-left: 140px;
   padding-top: 150px;
@@ -421,7 +398,7 @@ about-indicator {
   font-size: 2.4em;
 }
 
-  /* Add padding-top to the first h4 on the #services section, row2 */
+/* Add padding-top to the first h4 on the #services section, row2 */
 .first {
   padding-top: 150px;
   padding-bottom: 80px;
@@ -457,7 +434,6 @@ iframe {
 
 #testimonials {
   position: absolute;
-  /* background: linear-gradient(to right, #203262 50%, whitesmoke 50%); */
   background-color: white;
   height: 1400px;
   width: 100%;
@@ -515,7 +491,7 @@ iframe {
 }
 
 
-.testimonials-row2-h4 {  /* styling the h4's in the services section 2nd row */
+.testimonials-row2-h4 {
   color: #3a478f;
   padding-left: 140px;
   padding-top: 150px;
@@ -560,7 +536,6 @@ iframe {
 }
 
 /* Footer Section */
-
 
 #footer {
   position: absolute;
