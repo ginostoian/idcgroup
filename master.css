@@ -648,3 +648,130 @@ iframe {
 .developer a:hover {
   color: white;
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 375px) {
+     .bg-video {
+       display: none;
+     }
+
+     #home {
+       background-color: #22325e;
+       height: 812px;
+       position:static;
+     }
+
+     /* Navigation Media 375px */
+
+     .navbar {
+       position: fixed;
+       text-align: center;
+     }
+
+     .navbar .home-nav {
+       position: fixed;
+       height: 90px;
+       font-size: 1em;
+     }
+
+     .home-nav span {
+       padding: 0 20px;
+       top: 23px;
+       text-align: center;
+     }
+
+     .home-logo {
+       position: static;
+       padding-top: 70px;
+       margin: 0 auto;
+     }
+
+     /* Hero Media on #home 375px */
+
+     .hero {
+       width: 100%;
+     }
+
+     .hero h1 {
+       font-size: 2.5em;
+     }
+
+     .hero-info {
+       position: static;
+       margin: 0 auto;
+       padding-top: 60px;
+     }
+
+     .learn-more {
+       display: none;
+     }
+
+     /* Call to Action Home Media 375px */
+
+     .home-contact {
+       position: static;
+       padding-top: 30px;
+     }
+
+     .call-2-action {
+       margin: 0 auto;
+     }
+
+     .follow-us {
+       position: static;
+     }
+
+     .follow-us p {
+       padding-left: 8%;
+     }
+
+     /* About Section Media 375px */
+
+     #about {
+       position:static;
+       height: auto;
+       text-align: center;
+     }
+
+     .about-right {
+       padding: 0;
+       margin: 0 auto;
+       max-width: 100%;
+     }
+
+     .about-right h1 {
+       font-size: 1.8em;
+       padding-top: 100px;
+     }
+
+     .about-right p {
+       font-size: 0.9em;
+       padding-bottom: 100px;
+       padding-left: 10px;
+       padding-right: 10px;
+     }
+
+     .about-indicator {
+       display: none;
+     }
+
+     .about-services {
+       display: none;
+     }
+
+     .about-left {
+       display: none;
+     }
+
+     .about-right {
+       float: none;
+       width: 100%;
+     }
+
+     /* Services Section Media 375px */
+
+     #services {
+       position: static;
+     }
+}
