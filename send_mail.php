@@ -11,7 +11,7 @@ If you change the names of any of the pages, you will need to change the values 
 */
 $quote_page = "index.html";
 $error_page = "error_message.html";
-$thankyou_page = "thank_you.html";
+$thankyou_page = "index.html";
 
 /*
 This next bit loads the form field data into variables.
