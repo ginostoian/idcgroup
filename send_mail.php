@@ -29,7 +29,7 @@ $msg =
 "Phone Number: " . $phone_number . "\r\n" .
 "City Name: " . $city_name . "\r\n" .
 "Email: " . $email_address . "\r\n" .
-"Amount: " . $amount_number . "\r\n" .;
+"Amount: " . $amount_number ;
 
 /*
 The following function checks for email injection.
